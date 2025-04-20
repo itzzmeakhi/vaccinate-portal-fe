@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from '../Button/Button';
 
 import './Hero.scss';
 
@@ -9,14 +10,14 @@ const Hero = () => {
       <h1>Get Vaccinated Today</h1>
       <p>Schedule vaccination drives for your school with ease. Ensure the safety of your students and staff by organizing vaccination events through our portal.</p>
       <div className={`${componentClassName}-ctas`}>
-        <button
-          className='btn-primary'>
+        <Button
+          variant='primary'>
           Schedule a Drive
-        </button>
-        <button
-          className='btn-secondary'>
+        </Button>
+        <Button
+          variant='secondary'>
           Learn More
-        </button>
+        </Button>
       </div>
     </div>
   );

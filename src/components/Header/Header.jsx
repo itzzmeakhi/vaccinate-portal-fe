@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import Button from '../Button/Button';
 
 import logo from './../../assets/logo.png';
 
@@ -15,10 +16,10 @@ const Header = () => {
         className={`${componentClassName}--logo`}
       />
       <div className={`${componentClassName}--ctas`}>
-        <button
-          className='signup-btn'>
+        <Button
+          variant='white'>
           Sign Up!
-        </button>
+        </Button>
       </div>
     </header>
   )

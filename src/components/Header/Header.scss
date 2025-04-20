@@ -12,12 +12,7 @@
     height: 100%;
   }
   &--ctas {
-    .signup-btn {
-      padding: 10px 15px;
-      background-color: #fff;
-      color: #03A791;
-      border: transparent;
-      cursor: pointer;
+    button {
       &:hover {
         scale: 1.05;
         font-weight: 800;

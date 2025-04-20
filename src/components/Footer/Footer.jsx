@@ -7,6 +7,7 @@ import {
   FaYoutube
 } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
+import Button from '../Button/Button';
 
 
 import './Footer.scss';
@@ -19,7 +20,10 @@ const Footer = () => {
         <p>Subscribe to our newsetter for the latest updates on new features and product releases.</p>
         <form>
           <input type='email' placeholder='Enter your email'></input>
-          <button>Subscribe</button>
+          <Button
+            variant='secondary'>
+            Subscribe
+          </Button>
         </form>
         <span>&copy; 2025 Vaccination Portal. All rights reserved</span>
       </div>
