@@ -1,16 +1,17 @@
 import React from 'react';
 
 import Template from '../Template/Template';
+import SignIn from './../../components/SignIn/SignIn';
 
 import './AuthPage.scss';
 
 const AuthPage = () => {
   return (
-    <div className='auth-page'>
-      <Template>
-
-      </Template>
-    </div>
+    <Template>
+      <div className='auth-page'>
+        <SignIn />
+      </div>
+    </Template>
   );
 };
 

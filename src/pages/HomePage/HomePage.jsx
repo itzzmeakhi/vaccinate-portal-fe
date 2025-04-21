@@ -30,14 +30,14 @@ const HomePage = () => {
   ];
 
   return (
-    <div className='home-page'>
-      <Template>
+    <Template>
+      <div className='home-page'>
         <Hero />
         <Gallery images={imagesSet1} />
         <Gallery images={imagesSet2} />
         <Contact />
-      </Template>
-    </div>
+      </div>
+    </Template>
   );
 };
 
