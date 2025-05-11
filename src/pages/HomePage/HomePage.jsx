@@ -9,8 +9,6 @@ import './HomePage.scss';
 
 const HomePage = () => {
 
-  // Data for image carousel
-
   const imagesSet1 = [
     "/src/assets/gallery1.jpg",
     "/src/assets/gallery2.jpg",

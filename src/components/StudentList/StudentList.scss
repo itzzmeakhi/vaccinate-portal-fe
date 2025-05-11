@@ -1,0 +1,138 @@
+.student-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 100px;
+  margin-bottom: 60px;
+
+  h3 {
+    font-weight: 600;
+    margin-bottom: 40px;
+  }
+
+  .filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-bottom: 50px;
+    justify-content: center;
+
+    .filter-item {
+      input, select {
+        padding: 8px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+      }
+    }
+
+    button {
+      padding: 8px 16px;
+    }
+  }
+
+  .spinner {
+    margin: 0 auto;
+  }
+
+  .download-buttons {
+    margin-bottom: 20px;
+    button {
+      margin-right: 5px;
+    }
+  }
+
+  .table-container {
+    overflow-x: auto;
+    max-width: 100%;
+    scrollbar-width: thin;
+  }
+
+  .scrollable-table::-webkit-scrollbar {
+    height: 8px;
+  }
+
+  .scrollable-table::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+  }
+
+  .scrollable-table::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  table {
+    width: 100%;
+    max-width: 800px;
+    border-collapse: collapse;
+    background: #fff;
+    border-radius: 1px;
+
+    th, td {
+      padding: 12px;
+      text-align: left;
+      border-bottom: 1px solid #f0f0f0;
+    }
+
+    th {
+      background-color: #f9f9f9;
+      font-weight: 600;
+    }
+
+    tbody tr:nth-child(even) {
+      background-color: #f3f3f3;
+    }
+  }
+
+  .pagination {
+    margin: 20px 0px;
+    button {
+      padding: 4px;
+      margin-right: 4px;
+      border: 1px solid #fff;
+      cursor: pointer;
+      &.active {
+        background-color: #03A791;
+        color: #fff;
+      }
+    }
+  }
+}
+
+@media screen and (max-device-width: 767px) {
+  .student-list {
+    padding-top: 40px;
+    table {
+      min-width: 600px;
+    }
+    .filter-item {
+      flex: 1 1 200px;
+      display: flex;
+      input, select {
+        width: 100%;
+      }
+    }
+    .btn-white-bg {
+      padding: 5px;
+    }
+  }
+}
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .student-list {
+    padding-top: 50px;
+    .filters {
+      padding: 16px 32px;
+    }
+  }
+}
+
+@media screen and (max-device-width: 480px) {
+  table {
+    font-size: 14px;
+  }
+
+  .filters {
+    padding: 8px;
+  }
+}

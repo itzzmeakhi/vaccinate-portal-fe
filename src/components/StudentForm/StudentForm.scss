@@ -1,0 +1,64 @@
+.student-form {
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  h2 {
+    margin-bottom: 10px;
+  }
+  p {
+    margin-bottom: 30px;
+  }
+  input {
+    width: 400px;
+    height: 40px;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  select {
+    width: 400px !important;
+  }
+  .dob {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+  }
+  .border {
+    border: 1px solid #ddd;
+    padding: 40px 260px;
+  }
+  .spinner {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-device-width: 767px) {
+  .student-form {
+    padding-top: 40px;
+    input {
+      width: 300px;
+    }
+    select {
+      width: 300px !important;
+    }
+    .border {
+      padding: 40px;
+    }
+  }
+}
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .student-form {
+    input {
+      width: 450px;
+    }
+    select {
+      width: 450px !important;
+    }
+    .border {
+      padding: 40px 160px;
+    }
+  }
+}

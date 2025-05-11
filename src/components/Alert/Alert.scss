@@ -1,0 +1,22 @@
+.alert {
+  padding: 5px 10px 5px 10px;
+  margin: 20px 0px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  column-gap: 10px;
+  align-items: center;
+  &.alert__error {
+    border: 1px solid #f0aaa2;
+    background-color: #fad7d3;
+    color: #e74c3c;
+  }
+  &.alert__success {
+    border: 1px solid #10ac84;
+    background-color: #c2f9eb;
+    color: #10ac84;
+  }
+  button {
+    font-weight: 900 !important;
+  }
+}

@@ -54,7 +54,7 @@ const Gallery = ({ images }) => {
         style={{ display: "flex" }}
       >
         {[...images, ...images].map((src, index) => (
-          <div className={`${componentClassName}-img-container`}>
+          <div className={`${componentClassName}-img-container`} key={index}>
             <img
               key={index}
               src={src}

@@ -21,9 +21,36 @@
     color: #03A791;
     border: transparent;
   }
+  &-white-bg {
+    background-color: #fff;
+    color: #03A791;
+    border: 1px solid #03A791;
+    &:hover {
+      background-color: #03A791;
+      color: #fff;
+    }
+  }
   &-bg {
     background-color: #03A791;
     color: #fff;
     border: 1px solid #03A791;
+  }
+  &-error {
+    background-color: transparent;
+    border: transparent;
+    display: inline-block;
+    color :#e74c3c;
+    padding: 0px;
+  }
+  &-success {
+    background-color: transparent;
+    border: transparent;
+    display: inline-block;
+    color :#03A791;
+    padding: 0px;
+  }
+  &:disabled {
+    cursor: not-allowed;
+    opacity: 0.6;
   }
 }

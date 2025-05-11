@@ -1,15 +1,45 @@
 .signin {
-  padding-top: 80px;
+  padding: 80px 0px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  row-gap: 30px;
+  h2 {
+    margin-bottom: 30px;
+  }
   input {
-    width: 300px;
+    width: 400px;
     height: 40px;
     padding: 5px 10px;
     margin-bottom: 20px;
     font-size: 16px;
+  }
+  .alert {
+    width: 400px;
+  }
+  .spinner {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-device-width: 767px) {
+  .signin {
+    input {
+      width: 300px;
+    }
+    .alert {
+      width: 300px;
+    }
+  }
+}
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .signin {
+    input {
+      width: 450px;
+    }
+    .alert {
+      width: 450px;
+    }
   }
 }

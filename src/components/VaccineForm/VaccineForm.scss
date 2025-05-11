@@ -1,0 +1,35 @@
+.vaccine-form {
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  h3 {
+    margin-bottom: 30px;
+  }
+  input {
+    width: 400px;
+    height: 40px;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  .border {
+    border: 1px solid #ddd;
+    padding: 40px 260px;
+  }
+  .spinner {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-device-width: 767px) {
+  .vaccine-form {
+    .border {
+      padding: 40px;
+    }
+    input, select {
+      width: 300px !important;
+    }
+  }
+}

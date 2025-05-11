@@ -1,0 +1,31 @@
+.dashboard {
+  display: grid;
+  gap: 16px;
+  padding: 16px;
+  height: 60vh;
+}
+
+.dashboard-metrics, .dashboard-upcoming {
+  width: 80%;
+  margin: 0 auto;
+  padding: 40px 16px;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  background-color: #f9fafb;
+}
+
+.dashboard-metrics h2, .dashboard-upcoming h2 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.dashboard-upcoming ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.dashboard-upcoming li {
+  padding: 8px 0;
+  font-size: 14px;
+}
