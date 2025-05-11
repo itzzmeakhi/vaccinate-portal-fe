@@ -66,11 +66,11 @@ npm run dev
 
 ### Login Page
 
-<img width="1790" alt="reports" src="https://github.com/user-attachments/assets/f94fa08b-25bb-4add-b309-ed264a0c5095" />
+<img width="1792" alt="login" src="https://github.com/user-attachments/assets/5dedc706-47fc-4443-9f92-cc3f0e5f8ce4" />
 
 ### Dashboard Page
 
-<img width="1781" alt="status" src="https://github.com/user-attachments/assets/d5237e43-ad66-4d8d-a2fa-a0905bc02471" />
+<img width="1792" alt="dashboard" src="https://github.com/user-attachments/assets/0a84bb66-6bbc-4b3a-8ea0-6efbb6b846eb" />
 
 ### Manage Students Page
 
@@ -78,12 +78,11 @@ npm run dev
 
 ### Vaccination Status Page
 
-
-<img width="1792" alt="login" src="https://github.com/user-attachments/assets/5dedc706-47fc-4443-9f92-cc3f0e5f8ce4" />
+<img width="1781" alt="status" src="https://github.com/user-attachments/assets/d5237e43-ad66-4d8d-a2fa-a0905bc02471" />
 
 ### Reports Page
 
-<img width="1792" alt="dashboard" src="https://github.com/user-attachments/assets/0a84bb66-6bbc-4b3a-8ea0-6efbb6b846eb" />
+<img width="1790" alt="reports" src="https://github.com/user-attachments/assets/f94fa08b-25bb-4add-b309-ed264a0c5095" />
 
 
 ## 🤝 Contributing
