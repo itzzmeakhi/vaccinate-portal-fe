@@ -46,7 +46,7 @@ This is the frontend of the Vaccination Management System, a responsive and user
 git clone <repository-url>
 
 # Navigate to the project directory
-cd vaccination-management-frontend
+cd vaccinate-portal-fe
 
 # Install dependencies
 npm install
