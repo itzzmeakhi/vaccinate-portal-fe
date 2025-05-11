@@ -1,12 +1,78 @@
-# React + Vite
+# Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Project Overview
 
-Currently, two official plugins are available:
+This is the frontend of the Vaccination Management System, a responsive and user-friendly web application built using React. It allows admins to manage students, vaccination drives, and track vaccination metrics efficiently.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+* **Frontend Framework:** React (with Vite)
+* **Styles:** Sass
+* **State Management:** Redux
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🌐 Features
+
+* Dashboard displaying key vaccination metrics.
+* Manage Students (Add, Edit, Bulk Upload).
+* Manage Vaccination Drives (Create, Update, View Status).
+* Vaccinate Students directly from the drive view.
+* Secure Authentication (JWT).
+
+## 📁 Project Structure
+
+```
+├── src
+│   ├── components     # Reusable UI components
+│   ├── context        # Context API for global state
+│   ├── pages          # Application pages (Dashboard, Students, Drives)
+│   ├── services       # API calls (Axios)
+│   └── App.jsx        # Main application component
+└── public
+│   └── index.html
+└── README.md
+```
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+* Node.js (v18+ recommended)
+* npm or yarn
+
+### Installation
+
+```bash
+# Clone the repository
+git clone <repository-url>
+
+# Navigate to the project directory
+cd vaccination-management-frontend
+
+# Install dependencies
+npm install
+```
+
+### Running the Application
+
+```bash
+# Start the development server
+npm run dev
+
+# The app will be available at http://localhost:5173
+```
+
+
+## 📸 Screenshots
+
+* (Add screenshots of each page for better understanding)
+
+## 🤝 Contributing
+
+1. Fork the repository.
+2. Create a new branch (`feature/new-feature`).
+3. Make your changes.
+4. Create a Pull Request.
+
+## 📄 License
+
+This project is licensed under the MIT License.
